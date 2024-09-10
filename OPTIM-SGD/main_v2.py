@@ -201,11 +201,16 @@ if __name__ == '__main__':
     parser.add_argument("--model_name", type=str, default="resnet50.tv_in1k", help="model name")
     parser.add_argument("--version", type=str, default="v3", help="version")
     parser.add_argument("--strat", type=str, default="bilstering", help="strategy")
-    parser.add_argument("--lr", type=float, default=0.001, help="learning rate")
+    parser.add_argument("--lr", type=float, default=0.006, help="learning rate")
     parser.add_argument("--momentum", type=float, default=0.9, help="momentum for SGD")
-    parser.add_argument("--weight_decay", type=float, default=2e-4, help="weight decay for SGD")
+    parser.add_argument("--weight_decay", type=float, default=0.0002, help="weight decay for SGD")
     parser.add_argument("--n_epochs", type=int, default=100, help="number of epochs")
-    parser.add_argument("--batch_size", type=int, default=16, help="batch size")
+    parser.add_argument("--batch_size", type=int, default=32, help="batch size")
+    parser.add_argument('--lr_scheduler', type=str, default=None, help="Learning rate scheduler")
+    parser.add_argument('--step_size', type=int, default=30, help="Step size for StepLR")
+    parser.add_argument('--gamma', type=float, default=0.1, help="Gamma for learning rate decay")
+    
     args = parser.parse_args()
 
     main(args)
+    

@@ -5,12 +5,12 @@
 # model_names=("resnet50.tv_in1k" "resnet101.tv_in1k" "tf_efficientnetv2_m.in21k" "tf_efficientnetv2_l.in21k")
 model_names=("tf_efficientnetv2_m.in21k")
 # 여러 데이터셋을 실험하기 위해 배열에 전략을 저장합니다.
-strats=("3" "new3")
-# strats=("5" "new5")
+# strats=("3" "new3")
+strats=("10" "new10")
 # 스크립트의 다른 변수들을 정의합니다.
 version="v4"
 
-lrs=("0.006")
+lrs=("0.007")
 
 
 # 각 데이터셋과 각 모델에 대해 반복하면서 main-cut_v2.py를 실행합니다.

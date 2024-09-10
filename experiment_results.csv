@@ -27,3 +27,17 @@ timestamp,model_name,lr,n_epochs,version,strat,batch_size,best_epoch,best_test_a
 20240722_173513,resnet101.tv_in1k,0.0001,100,v4,10,16,11,62.8866,./BF/datasv4/strat_10/train
 20240722_180505,tf_efficientnetv2_m.in21k,0.0001,100,v4,10,16,14,74.2268,./BF/datasv4/strat_10/train
 20240722_183749,tf_efficientnetv2_l.in21k,0.0001,100,v4,10,16,67,83.5051,./BF/datasv4/strat_10/train
+20240814_214536,wide_resnet50_2.tv_in1k,0.01,100,v4,1,16,1,100.0000,./BF/datasv4/strat_1/train
+20240814_215405,resnet152.tv_in1k,0.01,100,v4,1,16,0,100.0000,./BF/datasv4/strat_1/train
+20240814_220255,wide_resnet50_2.tv_in1k,0.01,100,v4,new1,16,1,100.0000,./BF/datasv4/strat_new1/train
+20240814_221141,resnet152.tv_in1k,0.01,100,v4,new1,16,1,100.0000,./BF/datasv4/strat_new1/train
+20240814_222103,wide_resnet50_2.tv_in1k,0.01,100,v4,3,16,5,100.0000,./BF/datasv4/strat_3/train
+20240814_224402,wide_resnet50_2.tv_in1k,0.01,100,v4,new3,16,2,100.0000,./BF/datasv4/strat_new3/train
+20240815_001744,resnet50.tv_in1k,0.01,100,v4,1,16,1,100.0000,./BF/datasv4/strat_1/train
+20240815_002615,resnet50.tv_in1k,0.009,100,v4,1,16,0,100.0000,./BF/datasv4/strat_1/train
+20240815_003444,resnet101.tv_in1k,0.01,100,v4,1,16,3,100.0000,./BF/datasv4/strat_1/train
+20240815_004324,resnet101.tv_in1k,0.009,100,v4,1,16,0,100.0000,./BF/datasv4/strat_1/train
+20240815_005202,tf_efficientnetv2_m.in21k,0.01,100,v4,1,16,0,100.0000,./BF/datasv4/strat_1/train
+20240815_010216,tf_efficientnetv2_m.in21k,0.009,100,v4,1,16,1,100.0000,./BF/datasv4/strat_1/train
+20240815_024715,wide_resnet50_2.tv_in1k,0.008,100,v4,1,16,29,61.8557,./BF/datasv4/strat_1/train
+20240815_025546,wide_resnet50_2.tv_in1k,0.008,100,v4,new1,16,78,62.8866,./BF/datasv4/strat_new1/train
